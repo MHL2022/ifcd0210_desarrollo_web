@@ -21,7 +21,7 @@ y le seleccionamos.
 Con los comamdos:  cd ..  cd .\Desktop\ (si luego de escribir cd .. colocamos desk y le damos a la tecla tab nos lo autocompleta) nos situamos en el escritorio para clonar la carpeta de nuestro repositorio y tenerla a la vista.
 9. Clonamos el nuevo repositorio. Para esto, escribimos en terminal: git clone + url de gitHub, en mi caso:  git clone https://github.com/MHL2022/ifcd0210_desarrollo_web.git, le damos enter y ya tenemos nuestro repositorio clonado en el escritorio. Podemos comprobar que en el escritorio Tenemos una carpeta con el mismo nombre del repositorio de GitHub.
 10. Escribimos en terminal (vsc) cd y el nombre de la carpeta clonada, en mi caso: cd .\ifcd0210_desarrollo_web\ (comenzamos a escribir el nombre y con la tecla tab lo autocompletamos).
-11. Una vez dentro de la carpeta del repositorio podremos ver el path asi: PS C:\Users\-------\Desktop\ifcd0210_desarrollo_web> 
+11. Una vez dentro de la carpeta del repositorio podremos ver el path asi: PS C:\Users\xxxx\Desktop\ifcd0210_desarrollo_web> 
 12.Colocamos dentro de la carpeta del repositorio los archivos que queremos subir a GitHub.
 13. Escribimos en terminal: git status
 14. Podremos ver en terminal el nombre (o los nombres, si son varios) del archivo en color rojo, en mi caso: SubirGithub.txt
