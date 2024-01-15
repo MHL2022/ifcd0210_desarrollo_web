@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+</head>
+<body>
+    <h1>HOLA MARIA</h1>
+    <section>
+        <!CELDA MODIFICADA->
+        <table border="1" width=" 200px">
+            <tr>
+                <td>elemento1</td>
+                <td>elemento2</td>
+            </tr>
+            <tr>
+                <td>elemento3</td>
+                <td>elemento4</td>
+            </tr>
+            <tr>
+                <td>elemento5</td>
+                <td>elemento6</td>
+            </tr>
+            <tr>
+                <td>elemento7</td>
+                <td>elemento8</td>
+            </tr>
+        </table>
+    </section>
+   
+        <h3>Dar formato con atributos</h3>
+        <table border="1" bgcolor="yellow" width=" 200px">
+            <tr>
+                <td align="center" bgcolor="blue" height="40px" width="40px">elemento1</td>
+                <td align="center" bgcolor="blue" height="40px" width="40px">elemento2</td>
+            </tr>
+            <tr>
+                <td align="center" bgcolor="blue" height="40px" width="40px">elemento1</td>
+                <td align="center" bgcolor="blue" height="40px" width="40px">elemento2</td>
+            </tr>
+        </table>
+
+        <!Agrupamiento de filas y columnas: thead, tbody, tfoot->
+        <h3>Agrupamiento de filas y columnas</h3>
+        <table border="1" width="500">
+             <thead style="font-weight: bold; text-decoration: underline; text-align: center;">
+                <tr>
+                    <td>Elementos</td>
+                    <td>Modelo</td>
+                    <td>Rendimiento(%)</td>
+                    <td>Precio(€)</td>
+                </tr>
+             </thead>
+             <tbody style="text-align: center;">
+                <tr>
+                    <td>Modelo</td>
+                    <td>AA123</td>
+                    <td>50</td>
+                    <td>500</td>
+                </tr>
+                <tr>
+                    <td>Modelo</td>
+                    <td>BB345</td>
+                    <td>60</td>
+                    <td>600</td>
+                </tr>
+                <tr>
+                    <td>Modelo</td>
+                    <td>CC678</td>
+                    <td>70</td>
+                    <td>700</td>
+                </tr>
+             </tbody>
+             <tfoot style="font-weight: bold; text-align: center;">
+                <tr>
+                    <td>Total</td>
+                    <td></td>
+                    <td></td>
+                    <td>1800</td>
+                </tr>
+             </tfoot>
+        </table>
+    <h3>Agrupamiento de columnas</h3>
+    <table border="1">
+        <colgroup span="3" width="50"></colgroup>
+        <colgroup>
+            <col width="200"></col>
+            <col width="400"></col>
+        </colgroup>
+        <tr>
+            <td>columna1</td>
+            <td>columna2</td>
+            <td>columna3</td>
+            <td>columna4</td>
+            <td>columna5</td>
+        </tr>
+        <tr>
+            <td>columna1</td>
+            <td>columna2</td>
+            <td>columna3</td>
+            <td>columna4</td>
+            <td>columna5</td>
+        </tr>
+    </table>
+    <h3>Tablas Anidadas</h3>
+    <table border="1">
+        <tr>
+            <td>celda de la tabla principal</td>
+            <td>celda de la tabla principal</td>
+        </tr>
+        <tr>
+            <td>
+                <table border="1">
+                    <tr>
+                        <td>celda de la tabla secundaria</td>
+                        <td>celda de la tabla secundaria</td>
+                    </tr>
+                    <tr>
+                        <td>celda de la tabla secundaria</td>
+                        <td>celda de la tabla secundaria</td>
+                    </tr>
+                    <tr>
+                        <td>celda de la tabla secundaria</td>
+                        <td>celda de la tabla secundaria</td>
+                    </tr>
+                </table>
+            </td>
+            <td>celda de la tabla principal</td>
+        </tr>
+    </table>
+</body>
+</html>
