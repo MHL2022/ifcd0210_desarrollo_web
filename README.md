@@ -36,7 +36,7 @@ Run
   git config --global user.email "you@example.com"
   git config --global user.name "Your Name"
 Colocaremos nuestro email con el cual nos registramos en GitHub y nuestro nombre de usuario. Escribiremos(en mi caso): 
-git config --global user.email "mariadelhuertoes@yahoo.es" y le damos enter.
+git config --global user.email " correo@dominio.com" y le damos enter.
 git config --global user.name "MHL2022" y le damos enter.
 19. Si tenemos el GitHub abierto, nos saldra una pantalla de validación. Sino lo tenemos abierto nos pedirá que introduzcamos nuestra clave.
 20. Reintentamos hacer el commit como en el paso 17, esta vez le cambiamos el nombre, en mi caso:git commit -m "mi segundo archivo" y le damos enter.
